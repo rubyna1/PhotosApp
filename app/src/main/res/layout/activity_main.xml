@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/activity_main_select_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:text="Select two images" />
+
+    <TextView
+        android:id="@+id/activity_main_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_select_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="enter the limit"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/activity_main_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_select_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_toEndOf="@+id/activity_main_text_view"
+        android:inputType="number"
+        android:text="50" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_main_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_main_edit_text" />
+
+    <ImageView
+        android:id="@+id/activity_main_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_main_image_view1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/activity_main_image_view"
+        android:visibility="gone" />
+</RelativeLayout>
