@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Legion/Downloads/googleads-mobile-android-examples-master/PhotosApp/app/src/main/res/drawable/circular_border.xml" value="0.1445" />
         <entry key="..\:/Users/Legion/Downloads/googleads-mobile-android-examples-master/PhotosApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Legion/Downloads/googleads-mobile-android-examples-master/PhotosApp/app/src/main/res/layout/item_adapter.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Legion/Downloads/googleads-mobile-android-examples-master/PhotosApp/app/src/main/res/layout/item_image.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Legion/Downloads/googleads-mobile-android-examples-master/PhotosApp/app/src/main/res/layout/item_image_picker_dialog.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

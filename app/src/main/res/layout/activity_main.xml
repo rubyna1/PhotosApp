@@ -11,30 +11,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="16dp"
-        android:text="Select two images" />
-
-    <TextView
-        android:id="@+id/activity_main_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/activity_main_select_text_view"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="enter the limit"
-        android:textSize="20sp" />
+        android:layout_marginTop="5dp"
+        android:text="@string/selectTwoImages" />
 
     <EditText
         android:id="@+id/activity_main_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/activity_main_select_text_view"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:layout_toEndOf="@+id/activity_main_text_view"
-        android:inputType="number"
-        android:text="50" />
+        android:text="@string/defaultCount" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/activity_main_recycler_view"

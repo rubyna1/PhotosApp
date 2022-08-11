@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class ItemAdapter(private val listOfImage: List<ImageModel>) :
     RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
@@ -21,7 +22,7 @@ class ItemAdapter(private val listOfImage: List<ImageModel>) :
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val model = listOfImage[position]
-        holder.imageView.setImageURI(model.image)
+        Glide.with(holder.imageView.context).load(model.image).into(holder.imageView)
         holder.textView.text = model.index.toString()
     }
 

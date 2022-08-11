@@ -1,8 +1,6 @@
 package com.example.photosapp
 
-import android.net.Uri
-
 data class ImageModel(
-    val image: Uri,
+    val image: String,
     val index: Int
 )

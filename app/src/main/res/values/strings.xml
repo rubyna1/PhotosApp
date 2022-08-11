@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PhotosApp</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="selectImages">Select images</string>
+    <string name="selectTwoImages">Select two images</string>
+    <string name="defaultCount">50</string>
 </resources>
